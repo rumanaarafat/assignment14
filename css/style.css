@@ -188,17 +188,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* language section code start */
-.language{
+.languages{
 	width: 100%;
-	padding: 110px 0px;
-	
 }
-.language .title{
+.languages .title{
 	width: 100%;
 	padding: 80px 0px 0px;
 	text-align: center;
 }
-.language .title h2{
+.languages .title h2{
 	font-size: 36px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -207,40 +205,134 @@ h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	
 }
-.language h4 {
+.languages h4 {
     font-size: 22px;
     line-height: 32px;
     font-weight: 700;
     color: #414988;
     text-transform: uppercase;
-    padding: 0px 7px;
+    padding: 0px 0px;
 }
-.inner-language{
+.inner-languages{
 	width: 100%;
 	padding: 50px 0px;
 }
-.language p{
+.inner-languages p{
 	font-size: 14px;
 	line-height: 24px;
 	color: #b0b0b1;
 	
 }
-.language p-2{
-	font-size: 14px;
-	line-height: 24px;
-	color: #b0b0b1;
-  
+
+.inner-languages .btn-link {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #f2622c;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
-.language .btn-link{
-	text-decoration: none;
-	padding: 0px;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #f2622c;
-	font-weight: 700;
-	letter-spacing: 2px;
-	padding: 20px 0px;
-}
-.language .btn-link:hover, .language .btn-link:focus{
+.inner-languages .btn-link:hover, .inner-languages .btn-link:focus{
 	color: #fff !important;
 }
+/* contact-us css code start*/
+.contact-us{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/bg4.png") center top no-repeat;
+	background-size: cover;
+}
+.contact-us .title{
+	width: 100%;
+	padding: 0px 0px 0px 20px;
+	text-align: center;
+}
+.contact-us .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:#fff;
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+.contact-login{
+    width: 100%;
+    position: relative;
+    
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #28377e;
+    background-clip: padding-box;
+    padding: 10px 10px;
+    border: 1px solid #ced4da;
+    transition: 1s;
+}
+* {
+    padding: 10px;
+    margin: 0px;
+}
+.submit{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0px;
+}
+.submit .btn-primary {
+    width: 200px;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: #e76128;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    padding: 10px 0px;
+}
+.submit .btn-primary:hover, .submit .btn-primary:focus{
+	background:#f2622c;
+}
+/* footer-section css code start*/
+.footer-section{
+	width: 100%;
+	padding: 30px 0px 0px 0px ;
+	background: #0c1234;
+	text-align: center;
+}
+.footer-section p{
+		font-size: 14px;
+		line-height: 24PX;
+		font-weight: 400;
+		color: #616ca8;
+
+}
+.footer-section p a{
+		font-weight: 700;
+		letter-spacing: 3px;
+		color: #fff;
+}
+.footer-section .social-icons{
+	width: 100%;
+	padding: 0px;
+	text-align: right;
+}
+.footer-section .social-icons li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.footer-section .social-icons li a{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0px 0px 0px 15px;
+	color: #fff;
+}
+
